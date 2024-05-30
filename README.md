@@ -8,7 +8,7 @@ This analyzer can be compiled for Mac OSX, Linux, Windows. However, I did only b
 
 Note: This is a low level analyzer only, similar to the inbuilt i2c analyzer. A High level analyzer is not planned for now.
 
-# Why not use the builtin i2c analyzer?
+# Why not use the builtin I2C analyzer?
 
 I3C looks on a first rough view similar to I2C, but has many differences:
 - In SDR mode the acknowledgment phase is handled in 2 phases. On Rising and falling edge of the 9th Bit different information can be signalled in both directions (e.g. Ack, Abort, Continue, ...).
