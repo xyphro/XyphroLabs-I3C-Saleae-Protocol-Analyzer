@@ -33,17 +33,17 @@ Allthough all information is decoded in DDR mode (like preamble, parity, CRC fie
 
 # How to install
 
-Step #1: Download [i3c_analyzer.dll](i3c_analyzer.dll)
-Step #2: Copy it to the Saleae Logic protocol decoder directory: C:\Program Files\Logic2\resources\windows-x64\Analyzers
-Step #3: restart or start Logic 2 software
+- Step #1: Download [i3c_analyzer.dll](i3c_analyzer.dll)
+- Step #2: Copy it to the Saleae Logic protocol decoder directory: C:\Program Files\Logic2\resources\windows-x64\Analyzers
+- Step #3: restart or start Logic 2 software
 
 ## alternative installation method
 
-Step #1: Download [i3c_analyzer.dll](i3c_analyzer.dll)
-Step #2: Copy it to a folder where you want to permanently keep it
-Step #3: Open Logic2 software and go to Edit -> Preferences
-Step #4: Select in the section "Custom Low Level Analyzers" the directory where the i3c_analyzer.dll file is located.
-Step #5: Restart Logic2 software.
+- Step #1: Download [i3c_analyzer.dll](i3c_analyzer.dll)
+- Step #2: Copy it to a folder where you want to permanently keep it
+- Step #3: Open Logic2 software and go to Edit -> Preferences
+- Step #4: Select in the section "Custom Low Level Analyzers" the directory where the i3c_analyzer.dll file is located.
+- Step #5: Restart Logic2 software.
 
 # How to use
 
