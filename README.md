@@ -31,6 +31,10 @@ Allthough all information is decoded in DDR mode (like preamble, parity, CRC fie
 - All data is also dumped into the DATA view of the Analyzer.
 - IBI/HJ works too, but that's no magic as this looks on the bus like a normal bus transfer.
 
+# Contribute
+
+Feel free to share your extensions/modifications. PULL-requests are welcome!
+
 # How to install
 
 - Step #1: Download [i3c_analyzer.dll](i3c_analyzer.dll)
