@@ -61,9 +61,9 @@ Post in the Issue or discussion section!
 
 ## SDR mode decoding
 
-<img src="https://raw.githubusercontent.com/xyphro/XyphroLabs-I3C-Saleae-Protocol-Analyzer/master/pictures/decode_ddr.png" width="80%"/>
+<img src="https://raw.githubusercontent.com/xyphro/XyphroLabs-I3C-Saleae-Protocol-Analyzer/master/pictures/decode_sdr.png" width="80%"/>
 
 
 ## HDR-DDR mode decoding
 
-<img src="https://raw.githubusercontent.com/xyphro/XyphroLabs-I3C-Saleae-Protocol-Analyzer/master/pictures/decode_sdr.png" width="80%"/>
+<img src="https://raw.githubusercontent.com/xyphro/XyphroLabs-I3C-Saleae-Protocol-Analyzer/master/pictures/decode_ddr.png" width="80%"/>
