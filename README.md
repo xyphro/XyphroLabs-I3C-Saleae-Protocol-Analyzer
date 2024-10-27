@@ -4,7 +4,8 @@ Being interested in the I3C protocol, I ran into the issue that my most favorite
 
 So I started making my own analyzer plugin for Saleae Logic V2.
 
-This analyzer can be compiled for Mac OSX, Linux, Windows. However, I did only build it for windows and provide the binary here in this repository.
+This analyzer can be compiled for Mac OSX, Linux, Windows. However, I did only build it for windows and linux and provide the binary here in this repository.
+My only MAC machine is too old to run Mac OSX and runs Linux nowadays, but if anybody volunteers to spend me a MAC I'd build it for MAC too :-D
 
 Note: This is a low level analyzer only, similar to the inbuilt i2c analyzer. A High level analyzer is not planned for now.
 
