@@ -9,18 +9,23 @@ My only MAC machine is too old to run Mac OSX and runs Linux nowadays, but if an
 
 Note: This is a low level analyzer only, similar to the inbuilt i2c analyzer. A High level analyzer is not planned for now.
 
+## In need of an I3C Controller which can be controlled from a PC?
+
+Have a look at my I3C daughter project, which is USB to I3C interface based on a cheap Raspberry pi PICO 2040 board.
+<a href="https://github.com/xyphro/I3CBlaster" target="_blank">https://github.com/xyphro/I3CBlaster</a> 
+
 # Why not use the builtin I2C analyzer?
 
 I3C looks on a first rough view similar to I2C, but has many differences:
-- In SDR mode the acknowledgment phase is handled in 2 phases. On Rising and falling edge of the 9th Bit different information can be signalled in both directions (e.g. Ack, Abort, Continue, ...).
-- SDR mode can also generate patterns which an I2C analyzer would detect as start or stop condition, allthough they are none.
+- In SDR mode the acknowledgment phase is handled in 2 phases. On Rising and falling edge of the 9th Bit different information can be signaled in both directions (e.g. Ack, Abort, Continue, ...).
+- SDR mode can also generate patterns which an I2C analyzer would detect as start or stop condition, although they are none.
 - Special bus signals are defined in I3C , e..g HDR Exit, HDR Restart or Target reset.
 
 I3C HDR-DDR mode cannot be decoded with the I2C decoder.
 
 This decoder does support right now SDR and HDR-DDR mode. I plan to further extend it to other HDR modes.
 
-Allthough all information is decoded in DDR mode (like preamble, parity, CRC field, ...), I consider it still as a bit basic for now.
+Although all information is decoded in DDR mode (like preamble, parity, CRC field, ...), I consider it still as a bit basic for now.
 
 # Features
 
