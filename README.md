@@ -14,6 +14,12 @@ Note: This is a low level analyzer only, similar to the inbuilt i2c analyzer. A 
 Have a look at my I3C daughter project, which is USB to I3C interface based on a cheap Raspberry pi PICO 2040 board.
 <a href="https://github.com/xyphro/I3CBlaster" target="_blank">https://github.com/xyphro/I3CBlaster</a> 
 
+## Do you want to decode I3C with Sigrok Pulseview?
+
+Have a look at my I3C decoder project for Sigrok Pulseview:
+
+<a href="https://github.com/xyphro/Sigrok-I3C-decoder" target="_blank">https://github.com/xyphro/Sigrok-I3C-decoder</a> 
+
 # Why not use the builtin I2C analyzer?
 
 I3C looks on a first rough view similar to I2C, but has many differences:
