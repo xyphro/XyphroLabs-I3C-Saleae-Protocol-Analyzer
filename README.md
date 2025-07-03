@@ -61,6 +61,10 @@ Feel free to share your extensions/modifications. PULL-requests are welcome!
 - Step #4: Select in the section "Custom Low Level Analyzers" the directory where the i3c_analyzer.dll file is located.
 - Step #5: Restart Logic2 software.
 
+# Build from source
+
+Although the binaries are contained in the repository, if conversely, you want to build them yourself, the build system hooks are in place for you to do so. Please refer to [Saleae's guide](https://github.com/saleae/SampleAnalyzer#building-your-analyzer) for details on how to build it.
+
 # How to use
 
 After installation the analyzer can be used like any other decoder. Just click on Analyzer, then the + button and select the I3C decoder.
